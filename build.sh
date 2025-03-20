@@ -74,7 +74,7 @@ else
     echo "FROM nginx:alpine" >> $DockerfileName    
 fi
 
- echo "RUN apk update && apk upgrade libxml2 libxslt expat" >> $DockerfileName
+echo "RUN apk update && apk upgrade libxml2 libxslt expat" >> $DockerfileName
 
 echo "COPY . /usr/share/nginx/html" >> $DockerfileName
 echo "WORKDIR /usr/share/nginx/html" >> $DockerfileName

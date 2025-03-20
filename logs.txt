@@ -1126,3 +1126,106 @@ pkg:apk/alpine/expat@2.6.4-r0?os_name=alpine&os_version=3.21
 
 melvinsamuel070
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+d371a68d5fdf87c99535a7d1151ce05c91ada117372069a6e4d8a32abd1a5cf8
+Application deployed successfully!
+Login Succeeded
+The push refers to repository [docker.io/melvinsamuel070/samuel]
+5f70bf18a086: Preparing
+4c02ec7aa107: Preparing
+c18897d5e3dd: Preparing
+9af9e76ea07f: Preparing
+f1f70b13aacc: Preparing
+252b6db79fae: Preparing
+c9ce8cb4e76a: Preparing
+8f3c313eb124: Preparing
+c1761f3c364a: Preparing
+08000c18d16d: Preparing
+8f3c313eb124: Waiting
+252b6db79fae: Waiting
+c1761f3c364a: Waiting
+08000c18d16d: Waiting
+c9ce8cb4e76a: Waiting
+4c02ec7aa107: Layer already exists
+5f70bf18a086: Layer already exists
+9af9e76ea07f: Layer already exists
+f1f70b13aacc: Layer already exists
+c18897d5e3dd: Layer already exists
+252b6db79fae: Layer already exists
+8f3c313eb124: Layer already exists
+c9ce8cb4e76a: Layer already exists
+08000c18d16d: Layer already exists
+c1761f3c364a: Layer already exists
+latest: digest: sha256:3163e2a3971542af4b6d220724246e08d0e078fcedeb50ebed6507079f970663 size: 2404
+Running Docker Scout analysis...
+
+
+## Overview
+
+                    │         Analyzed Image           
+────────────────────┼──────────────────────────────────
+  Target            │  melvinsamuel070/samuel:latest   
+    digest          │  5ee5c5ada39a                    
+    platform        │ linux/amd64                      
+    vulnerabilities │    0C     5H     0M     1L       
+    size            │ 23 MB                            
+    packages        │ 82                               
+
+
+## Packages and Vulnerabilities
+
+   0C     2H     0M     1L  libxml2 2.13.4-r3
+pkg:apk/alpine/libxml2@2.13.4-r3?os_name=alpine&os_version=3.21
+
+    ✗ HIGH CVE-2025-24928
+      https://scout.docker.com/v/CVE-2025-24928?s=alpine&n=libxml2&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C2.13.4-r4
+      Affected range : <2.13.4-r4  
+      Fixed version  : 2.13.4-r4   
+    
+    ✗ HIGH CVE-2024-56171
+      https://scout.docker.com/v/CVE-2024-56171?s=alpine&n=libxml2&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C2.13.4-r4
+      Affected range : <2.13.4-r4  
+      Fixed version  : 2.13.4-r4   
+    
+    ✗ LOW CVE-2025-27113
+      https://scout.docker.com/v/CVE-2025-27113?s=alpine&n=libxml2&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C2.13.4-r5
+      Affected range : <2.13.4-r5  
+      Fixed version  : 2.13.4-r5   
+    
+
+   0C     2H     0M     0L  libxslt 1.1.42-r1
+pkg:apk/alpine/libxslt@1.1.42-r1?os_name=alpine&os_version=3.21
+
+    ✗ HIGH CVE-2025-24855
+      https://scout.docker.com/v/CVE-2025-24855?s=alpine&n=libxslt&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C1.1.42-r2
+      Affected range : <1.1.42-r2  
+      Fixed version  : 1.1.42-r2   
+    
+    ✗ HIGH CVE-2024-55549
+      https://scout.docker.com/v/CVE-2024-55549?s=alpine&n=libxslt&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C1.1.42-r2
+      Affected range : <1.1.42-r2  
+      Fixed version  : 1.1.42-r2   
+    
+
+   0C     1H     0M     0L  expat 2.6.4-r0
+pkg:apk/alpine/expat@2.6.4-r0?os_name=alpine&os_version=3.21
+
+    ✗ HIGH CVE-2024-8176
+      https://scout.docker.com/v/CVE-2024-8176?s=alpine&n=expat&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C2.7.0-r0
+      Affected range : <2.7.0-r0  
+      Fixed version  : 2.7.0-r0   
+    
+
+
+6 vulnerabilities found in 3 packages
+  CRITICAL  0  
+  HIGH      5  
+  MEDIUM    0  
+  LOW       1  
+
+melvinsamuel070
+Dockerfile exists already
