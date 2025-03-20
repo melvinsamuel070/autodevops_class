@@ -778,3 +778,42 @@ latest: digest: sha256:1e25892c6b31fcc3d40372e618a2feec44f3f78c9b67823aae8d21b88
 Running Docker Scout analysis...
 melvinsamuel070
 Dockerfile exists already
+Installing Docker Scout...
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+10474076a30e755a81c301e29e10980a4f94a708c33665e3f5d34c1456253bc7
+Application deployed successfully!
+Login Succeeded
+The push refers to repository [docker.io/melvinsamuel070/samuel]
+5f70bf18a086: Preparing
+e24d44623d85: Preparing
+c18897d5e3dd: Preparing
+9af9e76ea07f: Preparing
+f1f70b13aacc: Preparing
+252b6db79fae: Preparing
+c9ce8cb4e76a: Preparing
+8f3c313eb124: Preparing
+c1761f3c364a: Preparing
+252b6db79fae: Waiting
+c9ce8cb4e76a: Waiting
+8f3c313eb124: Waiting
+c1761f3c364a: Waiting
+08000c18d16d: Preparing
+08000c18d16d: Waiting
+f1f70b13aacc: Layer already exists
+c18897d5e3dd: Layer already exists
+9af9e76ea07f: Layer already exists
+e24d44623d85: Layer already exists
+5f70bf18a086: Layer already exists
+252b6db79fae: Layer already exists
+c9ce8cb4e76a: Layer already exists
+8f3c313eb124: Layer already exists
+08000c18d16d: Layer already exists
+c1761f3c364a: Layer already exists
+latest: digest: sha256:f35e217dff2aaba999004b24c1add8df387684d10a7947f94f3cf5385ad667b1 size: 2404
+Running Docker Scout analysis...
+melvinsamuel070
+Dockerfile exists already

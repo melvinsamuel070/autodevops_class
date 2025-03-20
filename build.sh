@@ -77,10 +77,7 @@ fi
 echo "COPY . /usr/share/nginx/html" >> $DockerfileName
 echo "WORKDIR /usr/share/nginx/html" >> $DockerfileName
 
-if ! docker extension list | grep -q "docker/scout"; then
-    echo "Installing Docker Scout..."
-    docker extension install docker/scout:latest
-fi
+curl -sSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh
 
 sudo docker build -t $APP_NAME:$BUILD_VERSION .
 
