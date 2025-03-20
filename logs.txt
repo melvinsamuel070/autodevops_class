@@ -646,3 +646,12 @@ d5448f582801ccccd812433ecef13e5689f475432fe3a5d74756c56d8eadddc1
 Application deployed successfully!
 
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+6445c7af32f5265f0ce15c99bcf2947c27697ba2e0aeaddb15444a3a14ee0c57
+Application deployed successfully!
+
+Dockerfile exists already
