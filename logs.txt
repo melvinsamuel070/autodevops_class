@@ -692,3 +692,13 @@ Application deployed successfully!
 Running Docker Scout analysis...
 
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+74ed71b475ceab71c4219633ffd5442ab98fd56e1f3554603432fe463fa4d31a
+Application deployed successfully!
+Running Docker Scout analysis...
+melvinsamuel070
+Dockerfile exists already
