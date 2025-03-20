@@ -664,3 +664,12 @@ Running your container ... ---------------------------
 Application deployed successfully!
 
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+032ff087b19360801b8597eb2094aedd96e512a51b45b0c40911be418d87e6d4
+Application deployed successfully!
+
+Dockerfile exists already
