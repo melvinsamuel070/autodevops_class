@@ -77,6 +77,11 @@ fi
 echo "COPY . /usr/share/nginx/html" >> $DockerfileName
 echo "WORKDIR /usr/share/nginx/html" >> $DockerfileName
 
+if ! docker extension list | grep -q "docker/scout"; then
+    echo "Installing Docker Scout..."
+    docker extension install docker/scout:latest
+fi
+
 sudo docker build -t $APP_NAME:$BUILD_VERSION .
 
 ## remove previously running Docker container

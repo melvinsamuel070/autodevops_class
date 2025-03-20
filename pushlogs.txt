@@ -84,3 +84,14 @@ Changes not staged for commit:
 	modified:   pushlogs.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 97af766] updated
+ 2 files changed, 48 insertions(+)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   build.sh
+	modified:   logs.txt
+	modified:   pushlogs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
