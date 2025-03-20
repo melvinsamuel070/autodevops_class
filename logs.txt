@@ -1229,3 +1229,76 @@ pkg:apk/alpine/expat@2.6.4-r0?os_name=alpine&os_version=3.21
 
 melvinsamuel070
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+aab718eb38036db1b9f7d5ed88e6d2f2df12f9cd81f0f0279e9cd0a1d45d8f31
+Application deployed successfully!
+Login Succeeded
+The push refers to repository [docker.io/melvinsamuel070/samuel]
+5f70bf18a086: Preparing
+d6a1cf1d6174: Preparing
+59878ce640ab: Preparing
+c18897d5e3dd: Preparing
+9af9e76ea07f: Preparing
+f1f70b13aacc: Preparing
+252b6db79fae: Preparing
+c9ce8cb4e76a: Preparing
+8f3c313eb124: Preparing
+c1761f3c364a: Preparing
+08000c18d16d: Preparing
+f1f70b13aacc: Waiting
+252b6db79fae: Waiting
+c9ce8cb4e76a: Waiting
+8f3c313eb124: Waiting
+c1761f3c364a: Waiting
+08000c18d16d: Waiting
+5f70bf18a086: Layer already exists
+9af9e76ea07f: Layer already exists
+59878ce640ab: Layer already exists
+d6a1cf1d6174: Layer already exists
+c18897d5e3dd: Layer already exists
+f1f70b13aacc: Layer already exists
+252b6db79fae: Layer already exists
+c9ce8cb4e76a: Layer already exists
+c1761f3c364a: Layer already exists
+8f3c313eb124: Layer already exists
+08000c18d16d: Layer already exists
+latest: digest: sha256:55fbe77bbc9ca950b951dd60c4b3d2d38c2c1183701f70ada3b8ba2acde46246 size: 2615
+Running Docker Scout analysis...
+
+
+## Overview
+
+                    │         Analyzed Image           
+────────────────────┼──────────────────────────────────
+  Target            │  melvinsamuel070/samuel:latest   
+    digest          │  68e1c74f48d7                    
+    platform        │ linux/amd64                      
+    vulnerabilities │    0C     1H     0M     0L       
+    size            │ 26 MB                            
+    packages        │ 82                               
+
+
+## Packages and Vulnerabilities
+
+   0C     1H     0M     0L  expat 2.6.4-r0
+pkg:apk/alpine/expat@2.6.4-r0?os_name=alpine&os_version=3.21
+
+    ✗ HIGH CVE-2024-8176
+      https://scout.docker.com/v/CVE-2024-8176?s=alpine&n=expat&ns=alpine&t=apk&osn=alpine&osv=3.21&vr=%3C2.7.0-r0
+      Affected range : <2.7.0-r0  
+      Fixed version  : 2.7.0-r0   
+    
+
+
+1 vulnerability found in 1 package
+  CRITICAL  0  
+  HIGH      1  
+  MEDIUM    0  
+  LOW       0  
+
+melvinsamuel070
+Dockerfile exists already
