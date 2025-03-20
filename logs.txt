@@ -1000,3 +1000,44 @@ pkg:apk/alpine/libxslt@1.1.42-r1?os_name=alpine&os_version=3.21
       Fixed version  : 1.1.42-r2   
     melvinsamuel070
 Dockerfile exists already
+Stopping any previuosly running container ... Please wait...
+samuel
+Running basic cleanups ...
+samuel
+Running your container ... ---------------------------
+60ce4d632cebab322380820443c2d183594957deb4103bf40ae6401205adc0cb
+Application deployed successfully!
+Login Succeeded
+The push refers to repository [docker.io/melvinsamuel070/samuel]
+5f70bf18a086: Preparing
+d6a1cf1d6174: Preparing
+59878ce640ab: Preparing
+c18897d5e3dd: Preparing
+9af9e76ea07f: Preparing
+f1f70b13aacc: Preparing
+252b6db79fae: Preparing
+c9ce8cb4e76a: Preparing
+8f3c313eb124: Preparing
+c1761f3c364a: Preparing
+08000c18d16d: Preparing
+c9ce8cb4e76a: Waiting
+c1761f3c364a: Waiting
+08000c18d16d: Waiting
+8f3c313eb124: Waiting
+f1f70b13aacc: Waiting
+252b6db79fae: Waiting
+5f70bf18a086: Layer already exists
+d6a1cf1d6174: Layer already exists
+c18897d5e3dd: Layer already exists
+9af9e76ea07f: Layer already exists
+59878ce640ab: Layer already exists
+252b6db79fae: Layer already exists
+f1f70b13aacc: Layer already exists
+8f3c313eb124: Layer already exists
+c1761f3c364a: Layer already exists
+c9ce8cb4e76a: Layer already exists
+08000c18d16d: Layer already exists
+latest: digest: sha256:55fbe77bbc9ca950b951dd60c4b3d2d38c2c1183701f70ada3b8ba2acde46246 size: 2615
+Running Docker Scout analysis...
+melvinsamuel070
+Dockerfile exists already
