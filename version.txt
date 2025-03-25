@@ -1,0 +1,19 @@
+# Path to version file
+VERSION_FILE="/home/melvin/autodevops_class/version.txt"
+
+# Read the current version
+if [[ -f $VERSION_FILE ]]; then
+    CURRENT_VERSION=$(cat $VERSION_FILE)
+else
+    CURRENT_VERSION="1.0.0"  # Default version
+    echo $CURRENT_VERSION > $VERSION_FILE
+fi
+
+# Increment the version (e.g., increment PATCH version)
+NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{print $1"."$2"."$3+1}')
+
+# Update the version file
+echo $NEW_VERSION > $VERSION_FILE
+
+# Export the new version as an environment variable
+export BUILD_VERSION=$NEW_VERSION

@@ -53,6 +53,10 @@
 
 #!/bin/bash
 
+## this handles errors
+set -e
+
+## this is the part of the script that will be executed
 source /home/melvin/autodevops_class/.env
 
 echo $DOCKERHUB_USERNAME
